@@ -1,0 +1,136 @@
+body {
+    font-family: cursive ;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #fffbfb;
+}
+
+header {
+    background-color: rgb(238, 142, 1);
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.baner {
+    text-align: center;
+    padding: 50px 0;
+    background: url(../img/lucas-mendes-CyfmSpqNMD8-unsplash.jpg) no-repeat center center/cover;
+    color: white;
+}
+
+.banner-boton {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(235, 201, 5);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 500px;
+    background: #c9501b;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    background-color: rgb(225, 140, 5) ;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.descripcion {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contacto {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contacto input, .contacto textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.pie {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pie a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
