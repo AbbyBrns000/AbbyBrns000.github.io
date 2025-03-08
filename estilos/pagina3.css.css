@@ -153,23 +153,6 @@ nav {
     justify-content: center;
 }
 
-.viewport{
-    background-color: rgb(255, 169, 206); /* Color de fondo */
-    border:1px;
-    padding: 15px 32px; /* Espaciado interno */
-    text-align: center; /* Alineación del texto */
-    display: inline-block; /* Mantener el botón como un elemento en línea */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    border-radius: 8px; /* Bordes redondeados */
-    
-}
-
-
-
-
-
-
-
 
 
  
